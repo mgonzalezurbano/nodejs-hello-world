@@ -1,3 +1,4 @@
 #!/bin/bash
 cd /var/api
-npm start
+#npm start
+pm2 start npm -- start
